@@ -58,7 +58,8 @@ button {
 */
 
 .login {
-  height: 300px;
+  height: 400px;
+  width: 500px;
   background-color: #1f2937;
 }
 .login-form {
@@ -66,12 +67,16 @@ button {
   text-align: center;
   padding: 10px;
 }
+
 .form-table {
   margin: 0 auto;
 }
 .form-table th {
   color: #fff;
+  text-align: left;
+  padding: 0px 0px 0px 10px;
 }
+
 .form-table td {
   padding: 10px;
 }
@@ -79,7 +84,7 @@ button {
   border-radius: 5px;
   padding: 10px;
   border: 1px solid #374151;
-  min-width: 200px;
+  min-width: 250px;
   background-color: #374151;
   color: #fff;
 }
@@ -91,7 +96,7 @@ button {
   padding: 15px 60px;
   border-radius: 10px;
   margin-top: 10px;
-  min-width: 200px;
+  min-width: 250px;
 }
 .form-button {
   text-align: center;
@@ -99,4 +104,8 @@ button {
 .sign {
   color: #3c86f7;
   text-decoration: none;
+}
+p.footer {
+  color: #fff;
+  text-align: center;
 }
