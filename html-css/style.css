@@ -21,7 +21,7 @@
 }
 .grid1 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; /*指定しなくても１行になる？*/
   background-color: #eee;
 }
 .grid-col-1 .grid-item {
