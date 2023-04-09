@@ -81,6 +81,7 @@ button {
   border: 1px solid #374151;
   min-width: 200px;
   background-color: #374151;
+  color: #fff;
 }
 .button {
   display: inline-block;
