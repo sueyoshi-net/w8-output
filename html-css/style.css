@@ -10,9 +10,6 @@ button {
   border: 0;
 }
 
-.section {
-}
-
 .section-button {
   text-align: center;
 }
@@ -61,6 +58,8 @@ button {
   height: 400px;
   width: 500px;
   background-color: #1f2937;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 .login-form {
   color: #fff;
@@ -108,4 +107,13 @@ button {
 p.footer {
   color: #fff;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .login {
+    height: 400px;
+    width: 100%;
+    background-color: #1f2937;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
 }
