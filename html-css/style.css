@@ -1,4 +1,31 @@
 @charset "utf-8";
+
 .grid {
   display: flex;
+  flex-wrap: wrap;
+  background-color: #eee;
+}
+.grid-col-4 > .grid-item {
+  width: 25%;
+  text-align: center;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.grid-col-2 .grid-item {
+  width: 50%;
+  text-align: center;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.grid1 {
+  display: flex;
+  font-weight: nowrap;
+  background-color: #eee;
+}
+.grid-col-1 .grid-item {
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
 }
